@@ -80,13 +80,13 @@ function removeFromCart(item) {
   }
 
   if (item_names.includes(item)){
-    p("YOO")
+    for(i = 0; i < cart.length; i++) {
+      if(cart[i].itemName === item) {
+        cart.splice(i, 1);
   }else{
     p("NAHH")
   }
-      //for(i = 0; i < cart.length; i++) {
-        //if(cart[i].itemName === item) {
-          //cart.splice(i, 1);
+
        // }
       //}
   //  }
