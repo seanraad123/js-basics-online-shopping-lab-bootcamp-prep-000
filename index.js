@@ -75,7 +75,7 @@ function total() {
 
 function removeFromCart(item) {
 }
-p(cart.indexOf('Carrots'))
+p(cart)
 
 removeFromCart("Carrots")
 
