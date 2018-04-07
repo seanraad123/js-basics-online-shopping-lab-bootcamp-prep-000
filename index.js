@@ -79,9 +79,8 @@ function removeFromCart(item) {
       var index = cart.indexOf(i['itemName']);
       if (index > -1) {
         cart.splice(index, 1);
-      }
-      cart.splice(index, 1);
       p(cart)
+      }
     }
   }
 }
