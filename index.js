@@ -88,8 +88,7 @@ function removeFromCart(item) {
     }
   }
 }
-p(cart['itemName'])
-removeFromCart("Blueberries")
+p cart['itemName']
 
 function placeOrder(cardNumber) {
   // write your code here
