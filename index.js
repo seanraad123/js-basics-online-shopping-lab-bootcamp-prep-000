@@ -82,7 +82,7 @@ function removeFromCart(item) {
         }
       }
     }else{
-      return ("")
+      return ("That item is not in your cart.")
     }
   }
   return cart
