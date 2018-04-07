@@ -85,11 +85,12 @@ function removeFromCart(item) {
       }
     }
   }else{
-    p("That item is not in your cart.")
+    return("That item is not in your cart.")
   }
+  return cart
 }
 
-removeFromCart("Carrots")
+p(removeFromCart("Carrots"))
 
 function placeOrder(cardNumber) {
   // write your code here
