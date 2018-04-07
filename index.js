@@ -91,7 +91,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  if (cardNumber === ""){
+  if (cardNumber.length > 0){
     p("No card number")
   }else{
     p("there is a card number!")
