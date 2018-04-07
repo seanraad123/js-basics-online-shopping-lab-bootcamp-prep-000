@@ -72,6 +72,8 @@ function total() {
    return (sum)
 }
 
+total()
+
 
 function removeFromCart(item) {
   var item_names = []
