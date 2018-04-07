@@ -74,9 +74,8 @@ function total() {
 
 
 function removeFromCart(item) {
-  for (var i of cart){
-    p(item)
-    if(item in cart){
+  for (var i in cart){
+    if(item in cart[i]['itemName']){
       for(i = 0; i < cart.length; i++) {
         if(cart[i].itemName === item) {
           cart.splice(i, 1);
@@ -88,7 +87,7 @@ function removeFromCart(item) {
     }
   }
 }
-p(cart[0]['itemName'])
+p()
 p (cart['itemName'])
 
 function placeOrder(cardNumber) {
