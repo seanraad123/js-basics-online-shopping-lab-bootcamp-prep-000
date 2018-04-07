@@ -75,9 +75,14 @@ function total() {
 
 function removeFromCart(item) {
 }
-p(cart.indexOf()
 
-removeFromCart("Carrots")
+for(var i = 0; i < myArray.length; i++) {
+   if(cart[i].itemName === 'Carrots') {
+     return i;
+   }
+}
+
+//removeFromCart("Carrots")
 
 function placeOrder(cardNumber) {
   // write your code here
