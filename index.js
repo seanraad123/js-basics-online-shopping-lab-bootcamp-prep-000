@@ -79,7 +79,11 @@ function removeFromCart(item) {
     item_names.push(i['itemName'])
   }
   
-  p(item_names)
+  if (item in item_names){
+    p("YOO")
+  }else{
+    p("NAHH")
+  }
       //for(i = 0; i < cart.length; i++) {
         //if(cart[i].itemName === item) {
           //cart.splice(i, 1);
