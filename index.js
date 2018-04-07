@@ -79,8 +79,8 @@ function removeFromCart(item) {
       var index = array.indexOf(i);
       i.splice(index, 1);
     }
-    
   }
+  return cart
 }
 
 removeFromCart("Carrots")
