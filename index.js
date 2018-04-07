@@ -90,7 +90,7 @@ function removeFromCart(item) {
   return cart
 }
 
-p(removeFromCart("Carrots"))
+p(removeFromCart("blox"))
 
 function placeOrder(cardNumber) {
   // write your code here
