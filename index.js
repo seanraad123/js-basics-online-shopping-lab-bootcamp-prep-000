@@ -72,7 +72,7 @@ function total() {
    return (sum)
 }
 
-total()
+p(total())
 
 
 function removeFromCart(item) {
