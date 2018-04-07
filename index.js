@@ -78,7 +78,7 @@ function removeFromCart(item) {
   for (var i of cart){
     if (item === i['itemName']){
       p("HELLO")
-      var index = i.indexOf(item);
+      var index = cart.indexOf(item);
       p(index)
       i.splice(index, 1);
       p(cart)
