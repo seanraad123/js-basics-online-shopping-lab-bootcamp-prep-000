@@ -81,7 +81,7 @@ function removeFromCart(item) {
       p(cart)
     }
   }
-  return cart
+  p(cart)
 }
 
 removeFromCart("Carrots")
