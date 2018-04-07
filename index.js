@@ -87,7 +87,7 @@ function removeFromCart(item) {
     }
   }
 }
-p(removeFromCart("box"))
+p(removeFromCart("Pies"))
 
 function placeOrder(cardNumber) {
   // write your code here
