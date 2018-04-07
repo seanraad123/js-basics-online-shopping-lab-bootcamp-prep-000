@@ -88,7 +88,7 @@ function removeFromCart(item) {
     }
   }
 }
-p(cart[0])
+p(cart[0]['itemName'])
 p (cart['itemName'])
 
 function placeOrder(cardNumber) {
