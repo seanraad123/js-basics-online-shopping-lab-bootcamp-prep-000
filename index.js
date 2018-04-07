@@ -93,9 +93,9 @@ function placeOrder(cardNumber) {
   if (typeof cardNumber === 'undefined'){
     return ("Sorry, we don't have a credit card on file for you.")
   }else{
+    str = (`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`)
     cart.length = 0
-    str = 
-    return(`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`)
+    return str
   }
 }
 
