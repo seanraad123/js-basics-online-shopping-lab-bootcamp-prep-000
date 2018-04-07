@@ -98,4 +98,4 @@ function placeOrder(cardNumber) {
   }
 }
 
-p(placeOrder("aeafs"))
+p(placeOrder())
