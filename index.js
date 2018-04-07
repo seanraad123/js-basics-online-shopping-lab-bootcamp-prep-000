@@ -21,6 +21,11 @@ function addToCart(item) {
 }
 
 
+addToCart("Carrots")
+addToCart("Blueberries")
+addToCart("Pies")
+
+
 function viewCart() {
   if (cart.length === 0 ){
     return ("Your shopping cart is empty.")
