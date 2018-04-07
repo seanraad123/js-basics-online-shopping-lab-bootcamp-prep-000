@@ -80,7 +80,7 @@ function removeFromCart(item) {
       p("HELLO")
       var index = cart.indexOf(item);
       p(index)
-      i.splice(index, 1);
+      cart.splice(index, 1);
       p(cart)
     }
   }
