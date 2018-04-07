@@ -88,7 +88,7 @@ function removeFromCart(item) {
     }
   }
 }
-p cart['itemName']
+p (cart['itemName'])
 
 function placeOrder(cardNumber) {
   // write your code here
