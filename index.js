@@ -78,8 +78,8 @@ function removeFromCart(item) {
   for (var i of cart){
     item_names.push(i.itemName)
   }
-  
-  if (item in item_names){
+
+  if (item_names.includes(item)){
     p("YOO")
   }else{
     p("NAHH")
