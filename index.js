@@ -74,15 +74,15 @@ function total() {
 
 
 function removeFromCart(item) {
-}
-
-for(var i = 0; i < myArray.length; i++) {
+  for(var i = 0; i < myArray.length; i++) {
    if(cart[i].itemName === 'Carrots') {
      return i;
    }
+  }
 }
 
-//removeFromCart("Carrots")
+
+removeFromCart("Carrots")
 
 function placeOrder(cardNumber) {
   // write your code here
