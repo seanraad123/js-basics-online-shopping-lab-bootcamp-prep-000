@@ -87,9 +87,7 @@ function removeFromCart(item) {
     }
   }else{
     p("That item is not in your cart.")
-  }
-  }
-}
+
 }
 
 removeFromCart("Carrots")
