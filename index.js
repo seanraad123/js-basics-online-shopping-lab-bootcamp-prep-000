@@ -72,9 +72,6 @@ function total() {
    return (sum)
 }
 
-p(total())
-
-
 function removeFromCart(item) {
   var item_names = []
   for (var i of cart){
@@ -99,5 +96,5 @@ function placeOrder(cardNumber) {
     return (`Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`)
   }
 }
-p(`test ${total()}`)
+
 p(placeOrder("15436534"))
