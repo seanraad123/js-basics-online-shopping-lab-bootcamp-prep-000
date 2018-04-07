@@ -85,7 +85,7 @@ function removeFromCart(item) {
     }
   }
 }
-p(cart.indexOf())
+p(cart.indexOf('Carrots'))
 
 removeFromCart("Carrots")
 
